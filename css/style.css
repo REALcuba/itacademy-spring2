@@ -1,45 +1,77 @@
 .nav-link:hover {
-    color: #fca311;
+    color: #fca311 !important;
 }
 
 .loginBtn:hover {
-    border: 2px solid red !important;
+    border: 1px solid red !important;
+    background-color: white !important;
+    color:red !important;
 }
 
 .colored-div {
     border-radius: 30px 0 0 30px;
     right: 1px;
     margin-top: 3rem;
-    width: 38%;
-    height: 30%;
+    width: 52%;
+    height: 26%;
     z-index: -1;
     }
 
     .item:hover {
         border-bottom-color: red !important;
-        border-block-width: 2px;
+        color: red;
     }
-
+.addExt:hover {
+    border: 1px solid blue;
+    background-color: white !important;
+    color: blue !important;
+}
     .colored-div2 {
         border-radius: 0 30px 30px 0;
         left: 1px;
         margin-top: 3rem;
-        width: 38%;
-        height: 30%;
+        width: 52%;
+        height: 26%;
         z-index: -1;
+}
+.getExtBtn {
+    width: fit-content;
+}
+
+.getChromeBtn:hover {
+    border: 1px solid blue;
+    background-color: white !important;
+    color: blue !important;
+}
+
+.getFirefoxBtn:hover {
+    border: 1px solid black;
+    background-color: white !important;
 }
 /* Media query for tablet size and above */
 @media (min-width: 768px) {
-
+/* p {
+    width: 50%;
+} */
     .textInfo {
         width: 500px;
     }
+    .colored-div {
+        margin-top: 7rem;
+        width: 25%;
+        height: 45%;
+    }
 
+    .colored-div2 {
+        margin-top: 7rem;
+        width: 20%;
+        height: 39%;
+    }
     .extensionsWrapper {
         height: 360px;
         }
 
-    .faqs {
+    .faqsWraper {
             width: 50%;
         }
 
@@ -65,7 +97,20 @@
 .card {
     width: 13em;
     }
+    .faqs:hover {
+        color: red;
+    }
 
     footer {
         background-color: rgba(37, 37, 255, 0.922);
+}
+.contactBtn:hover {
+    border: 1px solid red !important;
+    background-color: white !important;
+    color: red !important;
+}
+
+.socialIcon:hover {
+    background-color: red;
+    border-radius: 23%;
 }

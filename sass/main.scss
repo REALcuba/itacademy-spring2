@@ -1,8 +1,11 @@
 
 $primary: #fca311;
 $secundary: #14213d;
-// $navbar-toggler-icon:"icon-hamburger.svg";
-// $accordion-button-active-color:rgb(8, 5, 5);
-// $accordion-button-active-bg:white;
+$accordion-button-active-color:red;
+$accordion-button-active-bg:white;
+$accordion-button-focus-box-shadow:none;
+$nav-link-hover-color:red;
+$nav-tabs-link-active-color:red;
+$link-hover-color:red;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
