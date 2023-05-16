@@ -28,22 +28,32 @@
         height: 30%;
         z-index: -1;
 }
-@media (min-with:760px) {
+/* Media query for tablet size and above */
+@media (min-width: 768px) {
+
     .textInfo {
         width: 500px;
-        background-color: black !important;
     }
 
     .extensionsWrapper {
-        height: 0 !important;
+        height: 360px;
+        }
+
+        .faqs {
+            width: 50%;
+        }
+
+        .accordion-item {
+            border-inline-style: none;
+
+        }
+
+        .accordion-item:first-child {
+            border-top: 1px solid #dee2e6 !important;
     }
 
 }
 
 .card {
     width: 15em;
-}
-
-.extensionsWrapper {
-    height: 360px;
 }
