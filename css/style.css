@@ -39,21 +39,33 @@
         height: 360px;
         }
 
-        .faqs {
+    .faqs {
             width: 50%;
         }
 
-        .accordion-item {
+    .accordion-item {
             border-inline-style: none;
 
         }
 
-        .accordion-item:first-child {
+    .accordion-item:first-child {
             border-top: 1px solid #dee2e6 !important;
     }
+    .contactForm {
+        /* width: 45%; */
+        justify-content: center;
+        display: flex;
+    }
 
-}
+    .foot {
+        flex-direction: row !important;
+    }
+    }
 
 .card {
-    width: 15em;
+    width: 13em;
+    }
+
+    footer {
+        background-color: rgba(37, 37, 255, 0.922);
 }

@@ -21,3 +21,49 @@ Requisitos mínimos:
 
 Color principal: #fca311
 Color secundario: #14213d
+
+- Ejercicio 2
+Ahora toca crear la parte de funcionalidades del producto que estamos vendiendo:Features
+
+Requisitos mínimos:
+
+
+- El apartado "Features", con el texto descriptivo, debe ir dentro del Grid de Boostrap .
+- Tienes que utilizar el componente tabs de Bootstrap, modificando sus estilos para adaptarlos a nuestra web
+
+Para saber más
+
+En este tutorial enseña cómo hacerlo. -> How to Style Bootstrap Tabs Step-by-Step
+
+- Responsive.
+
+
+- Ejercicio 3
+Tienes que construir la tercera parte de la web: el área de descargas: Extensions
+Como las cards de la imagen son muy diferentes a las cards de Bootstrap, en este ejercicio te damos la posibilidad de, o bien personalizar las cards de Bootstrap o bien crear tus propias clases para maquetarlas  .
+
+
+
+Requisitos mínimos:
+-  Responsive.
+
+-  Botones de Bootstrap de color primary definido en el ejercicio 1.
+
+
+- Ejercicio 4
+¡ENHORABUENA! ¡Ya casi tienes el nivel 1 completado! Ahora toca desarrollar el apartado de FAQS:
+Requisitos mínimos
+- Emplear el componente "Accordion" y personalizar las clases para adaptarlo al diseño.
+
+- Responsive.
+
+
+- Botón de Bootstrap.
+- Ejercicio 5
+Sólo falta un blog para terminar la web: el footer.
+
+Requisitos mínimos
+- Utilizar los formularios de Bootstrap.
+
+- Mostrar un  mensaje de error  cuando el formulario del boletín de noticias se envía, y el campo de entrada está vacío o la dirección de correo electrónico no está formateada correctamente. Debe hacerse con Bootstrap.
+
