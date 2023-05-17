@@ -1,7 +1,14 @@
 .nav-link:hover {
     color: #fca311 !important;
 }
+.navLinkModal:hover {
+    border: 1px solid rgb(144, 138, 138);
 
+}
+
+.menu {
+    content-visibility: hidden;
+}
 .loginBtn:hover {
     border: 1px solid red !important;
     background-color: white !important;
@@ -59,6 +66,7 @@
 } */
 .menu {
     flex-direction: row !important;
+    content-visibility: visible;
 }
     .textInfo {
         width: 500px;

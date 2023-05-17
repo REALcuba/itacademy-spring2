@@ -18,10 +18,15 @@
                 <img src="./Recursos projecte sprint 2-20230510/Imagenes/logo-bookmark.svg" alt="logo">
             </a>
             <!-- collapse btn -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll">
                 <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-hamburger.svg" alt="">
-            </button>
-            <div class=" collapse d-flex justify-content-end navbar-collapse flex-column menu" id="coll"
+            </button> -->
+            <!--   Button trigger modal -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#modal">
+                <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-hamburger.svg" alt="">
+
+        </button>
+            <div class="  d-flex justify-content-end  flex-column menu" id="coll"
                 role="navigation">
                 <ul class="navbar-nav ">
                     <li class="nav-item "><a href="#" class="nav-link ">FUTURES</a></li>
@@ -30,30 +35,54 @@
                 </ul>
                 <button class="btn ms-2 text-bg-danger loginBtn" type="button">LOGIN</button>
             </div>
-            <!-- Button trigger modal -->
-            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                LOGIN
-            </button> -->
+          <!--   Button trigger modal -->
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-hamburger.svg" alt="">
+
+              </button> -->
 
             <!-- Modal -->
-            <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content">
+                    <div class="modal-content text-center">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
+                            <a href="#" class=" me-auto p-2">
+                                <img src="./Recursos projecte sprint 2-20230510/Imagenes/logo-bookmark-white.svg"
+                                    alt="logo">
+                            </a>
+                            <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+                                <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-close.svg" alt="">
+                            </button>
+                            </div>
+                            <div class="modal-body p-2">
+                                <ul class="gap-3 navbar-nav">
+                                    <li class="nav-item navLinkModal "><a href="#"
+                                            class="nav-link text-white border-bottom">FUTURES</a>
+                                    </li>
+                                    <li class="nav-item navLinkModal "><a href="#"
+                                            class="nav-link text-white border-bottom">PRICING</a>
+                                    </li>
+                                    <li class="nav-item  navLinkModal"><a href="#"
+                                            class="nav-link text-white border-bottom">CONTACT</a>
+                                    </li>
+                                </ul>
+                                <button class="btn text-white mt-3 navLinkModal active w-50"
+                                    type="button">LOGIN</button>
+
+                            </div>
+                            <div class="modal-footer justify-content-center pt-5">
+                                <div class="d-flex gap-3 " data-bs-dismiss="modal">
+
+                                    <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-twitter.svg" alt=""
+                                        class="socialIcon">
+                                    <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-facebook.svg" alt=""
+                                        class="socialIcon">
+                                </div>
+                            </div>
+                            </div>
+                            </div>
                 </div>
-            </div> -->
         </nav>
     </header>
     <main class="container-fluid">
@@ -83,12 +112,12 @@
         <!-- features -->
         <section class="container-fluid justify-content-center">
             <div class=" justify-content-center container">
-                <div class="pt-2 border-bottom ">
-                    <ul class="nav nav-pills navbar-expand-md justify-content-evenly p-5" id="pills-tab"
+                <div class="pt-2 ">
+                    <ul class="nav navbar-expand-md justify-content-evenly p-3" id="pills-tab"
                         role="tablist"">
-                        <li class=" nav-tabs pb-1 item" role="presentation"">Simple Bookmarking</li>
-                        <li class=" nav-tabs pb-1 item" role="presentation"">Speedy Searching</li>
-                        <li class=" nav-tabs pb-1 item" role="presentation"">Easy Sharing</li>
+                        <li class="col-sm-3 item nav-tabs pb-1 text-center" role="presentation"">Simple Bookmarking</li>
+                        <li class=" col-sm-3 item nav-tabs pb-1 text-center" role="presentation"">Speedy Searching</li>
+                        <li class=" col-sm-3 item nav-tabs pb-1 text-center" role="presentation"">Easy Sharing</li>
                     </ul>
                 </div>
                 <h2 class=" pt-2 text-center">Features</h2>
@@ -122,8 +151,8 @@
                     favourite you'd like
                     us to prioritize</p>
             </div>
-            <divExt class="align-items-lg-center gap-4 justify-content-center row extensionsWrapper">
-                <div class="align-items-baseline col h-100 justify-content-center m-0 p-0">
+            <divExt class="align-items-lg-center  gap-4 justify-content-center row extensionsWrapper">
+                <div class="align-items-baseline d-flex col h-100 justify-content-center m-0 p-0">
                     <div class="card align-items-center shadow ">
                         <img src="./Recursos projecte sprint 2-20230510/Imagenes/logo-chrome.svg"
                             class="card-img-top pt-2 w-50" alt="Chrome Logo">
