@@ -21,7 +21,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll">
                 <img src="./Recursos projecte sprint 2-20230510/Imagenes/icon-hamburger.svg" alt="">
             </button>
-            <div class="justify-content-end  float-sm-end collapse navbar-collapse" id="coll" role="navigation">
+            <div class=" collapse d-flex justify-content-end navbar-collapse flex-column menu" id="coll"
+                role="navigation">
                 <ul class="navbar-nav ">
                     <li class="nav-item "><a href="#" class="nav-link ">FUTURES</a></li>
                     <li class="nav-item  "><a href="#" class="nav-link">PRICING</a></li>
@@ -29,6 +30,30 @@
                 </ul>
                 <button class="btn ms-2 text-bg-danger loginBtn" type="button">LOGIN</button>
             </div>
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                LOGIN
+            </button> -->
+
+            <!-- Modal -->
+            <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </nav>
     </header>
     <main class="container-fluid">
@@ -97,8 +122,8 @@
                     favourite you'd like
                     us to prioritize</p>
             </div>
-            <div class="align-items-lg-center gap-4 justify-content-center row extensionsWrapper">
-                <div class="align-items-baseline col d-flex h-100 justify-content-center m-0 p-0">
+            <divExt class="align-items-lg-center gap-4 justify-content-center row extensionsWrapper">
+                <div class="align-items-baseline col h-100 justify-content-center m-0 p-0">
                     <div class="card align-items-center shadow ">
                         <img src="./Recursos projecte sprint 2-20230510/Imagenes/logo-chrome.svg"
                             class="card-img-top pt-2 w-50" alt="Chrome Logo">
@@ -136,8 +161,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="card"></div> -->
+            </divExt>
         </section>
         <!-- FAQ -->
         <section class="container mt-4 text-center faqsWraper">
@@ -254,3 +278,8 @@
 
 </body>
 </html>
+<!-- todos
+:nht-child() ?
+z-index colored div
+modal menu
+-->

@@ -17,7 +17,7 @@
     z-index: -1;
     }
 
-    .item:hover {
+.item:hover {
         border-bottom-color: red !important;
         color: red;
     }
@@ -48,11 +48,18 @@
     border: 1px solid black;
     background-color: white !important;
 }
+.divext:nth-child(2) {
+    background-color: black;
+    height: 500px;
+}
 /* Media query for tablet size and above */
 @media (min-width: 768px) {
 /* p {
     width: 50%;
 } */
+.menu {
+    flex-direction: row !important;
+}
     .textInfo {
         width: 500px;
     }
