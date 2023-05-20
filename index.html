@@ -127,7 +127,7 @@
                 </div>
                 <div class="justify-content-center row row-cols-md-2">
                     <div class="col-sm h-50 position-relative">
-                        <div class="bg-primary h-75 position-absolute colored-div2"></div>
+                        <div class="bg-primary position-absolute colored-div2"></div>
                         <img class="img-fluid float-rigth"
                             src="./Recursos projecte sprint 2-20230510/Imagenes/illustration-features-tab-1.svg" alt="">
                     </div>
@@ -269,14 +269,16 @@
     <footer class="text-center text-white pt-5">
         <span>35,000 + ALREADY JOINED</span>
         <h2 class="h2">Stay up-to-date with what we are doing.</h2>
-        <form class="container contactForm was-validated valid-feedback">
-            <div class="mb-3">
+        <form class="container contactForm was-validated ">
+            <div class="mb-3 position-relative">
                 <label for="inputEmail" class="form-label"></label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address"
-                    aria-describedby="email">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Example@email.com">
+                <div class=" invalid-tooltip">
+                    Woops, make sure it's an email.
+                </div>
             </div>
 
-            <button type="submit" class="btn btn-primary m-4 contactBtn">Contact Us</button>
+            <button type="submit" class="btn btn-danger m-4 contactBtn">Contact Us</button>
         </form>
         <div class="bg-dark h-25">
             <nav class="navbar navbar-expand-md container justify-content-evenly flex-column foot navbar-light ">
@@ -299,8 +301,8 @@
                         class="socialIcon">
                     </div>
                     </nav>
-                    </div>
-                    </footer>
+            </div>
+            </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>

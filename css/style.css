@@ -150,3 +150,17 @@ divext div:nth-child(3) {
     background-color: red;
     border-radius: 23%;
 }
+/* testing */
+/* // Define variables for the invalid feedback message
+$form-feedback-invalid-color: #dc3545;
+$form-feedback-invalid-background-color: #f8d7da;
+$form-feedback-invalid-font-size: 0.875rem;
+$form-feedback-invalid-font-weight: 400; */
+
+/* // Style the invalid feedback message for a form control */
+.form-control.is-invalid>.invalid-feedback {
+    color: blue;
+    background-color: red;
+    /* font-size: $form-feedback-invalid-font-size;
+    font-weight: $form-feedback-invalid-font-weight; */
+}
